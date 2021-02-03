@@ -1,0 +1,15 @@
+Content-Type: text/plain
+Server: Server
+Date: Wed, 03 Feb 2021 09:58:14 GMT
+X-Amz-Rid: SBPGHGQJV8CVEWXE8M6X
+X-Amz-Request-Id: 4QBZDG1MBM7K9VDJ
+Last-Modified: Fri, 09 Oct 2020 22:39:49 GMT
+Etag: "8e5277c97035c645b89ceb97cdb8c619"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 24412018db9f823badbcceb9b3bbdb6f.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: MipIvdVYU8mnBmHU9ps6KxGFSlYfv5LHdRosIexuCMNaghq2avaqOg==

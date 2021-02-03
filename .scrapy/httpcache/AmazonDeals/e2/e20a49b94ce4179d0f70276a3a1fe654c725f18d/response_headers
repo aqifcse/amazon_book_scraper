@@ -1,0 +1,8 @@
+Server: CloudFront
+Date: Wed, 03 Feb 2021 10:50:16 GMT
+Content-Type: text/html
+Location: https://www.amazon.com/dp/B00O9A48N2
+X-Cache: Redirect from cloudfront
+Via: 1.1 0e7af4d3c49480f425f8771227667e6b.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: xfN6iraedME0SYQXnDJmcTh8xjuyx0YwtbGg7a2FOrGu6KMTWjKBzA==
