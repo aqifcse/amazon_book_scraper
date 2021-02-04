@@ -1,0 +1,6 @@
+Server: AkamaiGHost
+Location: https://www.ikea.com/robots.txt
+Date: Thu, 04 Feb 2021 06:59:24 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+X-Content-Type-Options: nosniff

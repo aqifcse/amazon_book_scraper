@@ -1,0 +1,11 @@
+Server: AkamaiGHost
+Location: https://www.ikea.com/
+Cache-Control: private, max-age=600
+Expires: Thu, 04 Feb 2021 07:09:37 GMT
+Date: Thu, 04 Feb 2021 06:59:37 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: bm_sz=218EB35981D04B72D4D6463704DF9E72~YAAQKEw5F2hUyWZ3AQAA/9bWawoupoBOkpx9V5ldpkqjSF6LcjhA7iGH6PiTZdhPt5WJGbNUItkUXAEJhxz4HB/qTFGcCMr9QD5K8s2c+lWbkLuHxRwzTBFKqw0gajXrSj8YzyyGTePb4iUnrbckaWZG6XFcd81Ty+Ew+QFNviKUy6p+WRQEGQn6nS4gCw==; Domain=.ikea.com; Path=/; Expires=Thu, 04 Feb 2021 10:59:37 GMT; Max-Age=14400; HttpOnly
+Set-Cookie: _abck=F3F544060DD0BA61C5D60CAB2A94D767~-1~YAAQKEw5F2lUyWZ3AQAA/9bWawU0w1B/OOk/3MakVq7ATuOHkI5GrJraZfVH4Dw/lfo4Bii78n4f97DtHkYIDiH4xPAeVZ9jN/upluyRdmIP35bMW7j4o7GV0Xj/d+JCQYnYBqh38ULOkxy3o6KqSj00q9NU2T8tP+zuH4I0vEoXpymP92UC/2slkV4vxs4Yg5kPy9ulP0bbp1+fU1/n//g3P831mNOPxF046fXej2tHNn+NwYotK9/hXYKYRuFnFXSJ9HVfBE0Doo+a62Whw6NuZA==~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Fri, 04 Feb 2022 06:59:37 GMT; Max-Age=31536000

@@ -1,0 +1,18 @@
+Content-Type: text/html
+Last-Modified: Fri, 29 Jan 2021 07:34:42 GMT
+Accept-Ranges: bytes
+Etag: "0x8D8C428579C4D2B"
+X-Ms-Request-Id: 1a321eb1-401e-0017-5016-f68aad000000
+X-Ms-Version: 2018-03-28
+X-Akamai-Transformed: 9 - 0 pmb=mTOE,1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: private, max-age=600
+Expires: Thu, 04 Feb 2021 07:09:44 GMT
+Date: Thu, 04 Feb 2021 06:59:44 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Server: IKEA Server

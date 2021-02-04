@@ -5,6 +5,8 @@ from amazonscrap.items import AmazonItem
 class AmazonProductSpider(scrapy.Spider):
   name = "AmazonDeals"
   allowed_domains = ["amazon.com"]
+
+  
   
   #Use working product URL below
   start_urls = [
