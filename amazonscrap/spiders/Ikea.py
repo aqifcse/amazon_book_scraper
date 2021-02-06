@@ -9,11 +9,26 @@ class IkeaSpider(scrapy.Spider):
     start_urls = ['https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011']
 
     def parse(self, response):
-        for sel in response.xpath('.//a[contains(@class, "a-link-normal a-text-normal")]'):
-            item = IkeaItem()
-            item['link'] = sel.xpath('@href').extract()
-
+        item = IkeaItem()
+        # for amazon s-include-content-margin s-border-bottom s-latency-cf-section
+        books = response.xpath('//div[contains(@class, "s-include-content-margin s-border-bottom s-latency-cf-section")]')
+        for book in books:
+            item['book_name'] = book.xpath('.//a[@class="a-link-normal a-text-normal"]/span/text()').extract_first()
+            item['book_author'] = book.xpath('.//a[@class="a-size-base a-link-normal"]/text()').extract_first().replace('\n','')
+            item['book_published_date'] = book.xpath('.//span[@class="a-size-base a-color-secondary a-text-normal"]/text()').extract_first()
+            item['book_rating'] = book.xpath('.//a[@class="a-link-normal"]/span/text()').extract_first()
+            item['book_hardcover_price_int'] = book.xpath('.//span[@class="a-price-whole"]/text()').extract_first()
+            item['book_audible_status'] = book.xpath('.//span[@class="a-color-secondary"]/text()').extract_first()
             yield item
+
+    
+    
+    # def parse(self, response):
+    #     for sel in response.xpath('.//a[contains(@class, "a-link-normal a-text-normal")]'):
+    #         item = IkeaItem()
+    #         item['link'] = sel.xpath('@href').extract()
+
+    #         yield item
 
     
     # def parse(self, response):
