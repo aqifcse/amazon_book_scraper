@@ -1,0 +1,22 @@
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: V1T99GZ2M4Y4N0142VMQ
+Accept-Ch: ect,rtt,downlink
+Accept-Ch-Lifetime: 86400
+X-Ua-Compatible: IE=edge
+Content-Language: en-US
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Date: Sun, 07 Feb 2021 06:34:47 GMT
+Set-Cookie: session-id=131-2960927-4463913; Domain=.amazon.com; Expires=Mon, 07-Feb-2022 06:34:47 GMT; Path=/; Secure
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Mon, 07-Feb-2022 06:34:47 GMT; Path=/; Secure
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Mon, 07-Feb-2022 06:34:47 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:BD"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Mon, 07-Feb-2022 06:34:47 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: skin=noskin; path=/; domain=.amazon.com

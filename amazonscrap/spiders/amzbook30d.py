@@ -1,16 +1,17 @@
-import  scrapy
-from amazonscrap.items import IkeaItem
+# -*- coding: utf-8 -*-
+import scrapy
+from amazonscrap.items import Amzbook30dItem
 
-class IkeaSpider(scrapy.Spider):
-    name = 'ikea'
 
+class Amzbook30dSpider(scrapy.Spider):
+    name = 'amzbook30d'
     allowed_domains = ['http://www.amazon.com/']
 
     start_urls = ['https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011']
     
     def parse(self, response):
-        item = IkeaItem()
-        # for amazon s-include-content-margin s-border-bottom s-latency-cf-section
+        item = Amzbook30dItem()
+    
         books = response.xpath('//div[contains(@class, "s-include-content-margin s-border-bottom s-latency-cf-section")]')
         for book in books:
             item['book_name'] = book.xpath('.//a[@class="a-link-normal a-text-normal"]/span/text()').extract_first()

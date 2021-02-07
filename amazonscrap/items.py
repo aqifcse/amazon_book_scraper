@@ -7,7 +7,7 @@
  
 import scrapy
 
-class IkeaItem(scrapy.Item):
+class Amzbook30dItem(scrapy.Item):
   book_name = scrapy.Field()
   book_author = scrapy.Field()
   book_published_date = scrapy.Field()
