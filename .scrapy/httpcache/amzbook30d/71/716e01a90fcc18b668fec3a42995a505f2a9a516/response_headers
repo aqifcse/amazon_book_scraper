@@ -1,0 +1,11 @@
+Date: Tue, 09 Feb 2021 07:12:23 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.3.29
+Set-Cookie: cookie_test=please_accept_for_session; expires=Thu, 11-Mar-2021 07:12:23 GMT; path=/oscommerce/; domain=bg.avtogumi.bg
+Set-Cookie: osCsid=o1jhdh1dqmhv8n4jof7b3f1qo5; path=/oscommerce/; domain=bg.avtogumi.bg
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/html

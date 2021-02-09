@@ -1,14 +1,25 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from scrapy.contrib.spiders import Rule
-from scrapy.linkextractors import LinkExtractor
-#from amazonscrap.items import Amzbook30dItem
 
 class Amzbook30dSpider(scrapy.Spider):
     name = 'amzbook30d'
     allowed_domains = ['https://www.amazon.com']
 
-    start_urls = ['https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011']
+    base_url = 'https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011'
+    total_pages = 75
+
+    def start_requests(self):
+        
+        url_list = []
+        
+        url_list.append(self.base_url)
+
+        for i in range(2, self.total_pages):
+            url_list.append(self.base_url + "&page=" + str(i))
+
+        for url in url_list:
+            yield scrapy.Request(url = url, callback = self.parse)
+
 
     def parse(self, response):
     
@@ -31,8 +42,4 @@ class Amzbook30dSpider(scrapy.Spider):
                 'price' :           hardcover_price_int, 
                 'status' :          audible_status, 
             }
-        next_page = response.xpath('//li[@class="a-last"]/a/@href').extract_first()
-        if next_page:
-            next_page_url = 'https://www.amazon.com' + response.xpath('//li[@class="a-last"]/a/@href').extract_first() + '/index.html'
-            self.start_urls.append(next_page_url)
-            yield scrapy.Request(next_page_url, callback = self.parse)
+        
