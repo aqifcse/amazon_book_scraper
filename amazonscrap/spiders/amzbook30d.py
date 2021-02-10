@@ -5,21 +5,14 @@ class Amzbook30dSpider(scrapy.Spider):
     name = 'amzbook30d'
     allowed_domains = ['https://www.amazon.com']
 
-    base_url = 'https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011'
-    total_pages = 75
+    #base_url = 'https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011'
 
     def start_requests(self):
-        
-        url_list = []
-        
-        url_list.append(self.base_url)
 
-        for i in range(2, self.total_pages):
-            url_list.append(self.base_url + "&page=" + str(i))
+        url_list = [f'https://www.amazon.com/Books-Last-30-days/s?rh=n%3A283155%2Cp_n_publication_date%3A1250226011&page={i}' for i in range(0, 75)]
 
         for url in url_list:
             yield scrapy.Request(url = url, callback = self.parse)
-
 
     def parse(self, response):
     
@@ -42,4 +35,7 @@ class Amzbook30dSpider(scrapy.Spider):
                 'price' :           hardcover_price_int, 
                 'status' :          audible_status, 
             }
+
+
+
         
