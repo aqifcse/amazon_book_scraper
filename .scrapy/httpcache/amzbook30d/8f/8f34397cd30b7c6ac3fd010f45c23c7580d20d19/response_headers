@@ -1,0 +1,17 @@
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: 8NKH7CW638XZNHQWNXJ6
+Accept-Ch: ect,rtt,downlink
+Accept-Ch-Lifetime: 86400
+Content-Language: en-US
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Date: Thu, 11 Feb 2021 11:44:45 GMT
+Set-Cookie: session-token=7PsXcByPqt1sXs4egY5Ge9mAYoqz+moU0TyyK7QFdi4a9rymZhLzakB07tYKpfhkq5wstoLtJiG0IfbbuZ4zJQ4CbSfpRCR2QwWqkjKDFk0/K7z/qBwCdKCr6+dyf6W33NPyrwa/aJeUMk6fNZ7XgcVHK6X1jWoEUNhSheMI+0IXyGjoVxnHmhC7WYKEDgLD; Domain=.amazon.com; Expires=Fri, 11-Feb-2022 11:44:45 GMT; Path=/; Secure

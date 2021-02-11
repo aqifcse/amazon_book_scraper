@@ -1,0 +1,21 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Thu, 11 Feb 2021 11:49:48 GMT
+X-Amz-Rid: NJHHVYDZJSBFFENG5G7E
+Set-Cookie: session-token=HTULs3r+Uaj5e7/x2Gxg6FWRuicGpTN2zkfIFMAjgB11nEIOrMlHPwBLjUTgJsJ5ijo6qSZCB2ZYxf0X8ZnwcHulzkDoxxim2Iw8uIiGNrAnI3Sa1UmTY5P6laDN26AkY3fT89jWy4gu79F+cEneUwVT2U+SsEhNjL6ZQUZW0N7n5x6w9UpdeWD3126XT85H; Domain=.amazon.com; Expires=Fri, 11-Feb-2022 11:49:48 GMT; Path=/; Secure
+Accept-Ch: ect,rtt,downlink
+Accept-Ch-Lifetime: 86400
+Content-Language: en-US
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 1929ee58d497410f430b3cb3a1a73bed.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM51-C1
+X-Amz-Cf-Id: _5bosVLNLJQvNYa5lmTt8SnG0a7tx0rKLLReYsW2mmYp02X0vpezgA==

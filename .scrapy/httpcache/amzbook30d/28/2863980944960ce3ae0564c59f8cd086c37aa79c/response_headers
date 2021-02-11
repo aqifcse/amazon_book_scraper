@@ -1,0 +1,15 @@
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: 6C3FCWT31GMTX3P12MWA
+Accept-Ch: ect,rtt,downlink
+Accept-Ch-Lifetime: 86400
+P3P: policyref="https://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Cache-Control: no-cache, no-transform
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Date: Thu, 11 Feb 2021 11:43:11 GMT
+Set-Cookie: session-token=zQBzeuFNT3rHYBT9/hW64yGkG9GudBd8kfVHsNNoiewYQ2peXvzkoR0tru5UJ5gWWNSzgo8yFVucboYuV4QV8/AigKv0uGWGTJxQkPzCZoYWRRxsiXI1lZwYl+40trQIVaSufIgaRBUis8fZB5uDKzXTVmxBjiGdc+BsVQsHiRMtI3k7y3oU4esgAfI4CvWR; Domain=.amazon.com; Expires=Fri, 11-Feb-2022 11:43:11 GMT; Path=/; Secure

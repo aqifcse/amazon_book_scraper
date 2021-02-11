@@ -1,0 +1,19 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Thu, 11 Feb 2021 11:48:45 GMT
+X-Amz-Rid: VA3K81VPWG7XHAA8S56X
+Set-Cookie: session-token=Xtl5BqaZhZVQKtiUOPzKf8/pwCohB6U9GTfzC/bdwFTqj+SnH/1fEBoijecqf2v8X8ne8X5V0kbiMvs0i6DveoSVMiO5kmG3Y9jNZzbqXNklQryGORu56wSsR8a0Y9tyxDPVMi3SCxevF+aeJzZb0x7YzZjFT0uxcKzs2BomQD7PwDPQKYTsmiffJAjwlExk; Domain=.amazon.com; Expires=Fri, 11-Feb-2022 11:48:45 GMT; Path=/; Secure
+Accept-Ch: ect,rtt,downlink
+Accept-Ch-Lifetime: 86400
+P3P: policyref="https://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Cache-Control: no-cache, no-transform
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 63fb8e55a5b4004c4539c5ce22956da9.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM51-C1
+X-Amz-Cf-Id: 6hiqYMAVAQTFmRzl6R4pq-mz4VnlT7TetaJ0ZqzrXXGRE4GLiR5GnA==
