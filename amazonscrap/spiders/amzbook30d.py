@@ -39,7 +39,7 @@
 
 
 
-book-by-book
+# book-by-book
 import scrapy
 
 class Amzbook30dSpider(scrapy.Spider):
